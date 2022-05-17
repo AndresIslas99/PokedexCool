@@ -29,6 +29,7 @@
         android:layout_marginTop="30sp"
         android:hint="tipo:"
         />
+
     <Button
         android:id="@+id/tomar_foto"
         android:layout_width="match_parent"
@@ -36,18 +37,19 @@
         android:layout_marginHorizontal="30sp"
         android:layout_marginTop="50sp"
         android:onClick="fotoPokemon"
-        android:text="foto pokemon"
+        android:text="foto cameo"
         android:textAllCaps="false" />
+
     <Button
+        android:id="@+id/agregabtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/agregabtn"
         android:layout_marginHorizontal="30sp"
         android:layout_marginTop="50sp"
-        android:text="agrega pokemon"
-        android:textAllCaps="false"
         android:onClick="addPokemon"
-        />
+        android:text="agrega cameo"
+        android:textAllCaps="false" />
+
     <Button
         android:id="@+id/consultabtn"
         android:layout_width="match_parent"
@@ -55,7 +57,7 @@
         android:layout_marginHorizontal="30sp"
         android:layout_marginTop="50sp"
         android:onClick="getPokemons"
-        android:text="dame pokemons"
+        android:text="dame cameo"
         android:textAllCaps="false" />
     <Button
         android:id="@+id/logoutbtn"
